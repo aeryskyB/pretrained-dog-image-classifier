@@ -2,7 +2,7 @@
 
 `AWS Winter AI Python Nanodegree 1st project: pretrained image classifier to identify dog breeds`  
 
-Most of the codes were given in the assignment.
+Most of the codes were already provided in the assignment.
 
 I just had to
   - tweak here and there
