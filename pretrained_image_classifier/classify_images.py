@@ -71,7 +71,7 @@ def classify_images(images_dir, results_dic, model):
         # go lowercase
         predict_low = predict.lower()
         # find match
-        img_label = ' '.join(value)
+        img_label = value[0]
         match = 1 if img_label in predict_low else 0
         results_dic[key] = [img_label, predict, match]
     ## check: print(results_dic)

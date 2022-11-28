@@ -50,7 +50,6 @@ def get_pet_labels(image_dir):
             petname_list = [word for word in low_petfile.split('_') if word.isalpha()]
             ## test: print(petname_list)
             # in both cases stripping not needed
-            # adding petfile (key) -> petname (value) in results_dict
-            results_dict[petfile] = petname_list
+            results_dict[petfile] = [' '.join(petname_list)]
     ## check: print(len(results_dict))
     return results_dict                                                                                    
